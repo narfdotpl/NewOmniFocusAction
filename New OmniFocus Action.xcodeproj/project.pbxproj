@@ -409,6 +409,7 @@
 				CB53B8BD1B5B980D002786F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB53B8BE1B5B980D002786F7 /* Build configuration list for PBXNativeTarget "New OmniFocus ActionTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				CB53B8C01B5B980D002786F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
