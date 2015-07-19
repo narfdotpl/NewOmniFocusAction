@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB53B8A21B5B980D002786F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB53B8A11B5B980D002786F7 /* AppDelegate.swift */; };
+		CB53B8A41B5B980D002786F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB53B8A31B5B980D002786F7 /* ViewController.swift */; };
+		CB53B8A71B5B980D002786F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB53B8A51B5B980D002786F7 /* Main.storyboard */; };
+		CB53B8A91B5B980D002786F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB53B8A81B5B980D002786F7 /* Images.xcassets */; };
+		CB53B8AC1B5B980D002786F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB53B8AA1B5B980D002786F7 /* LaunchScreen.xib */; };
+		CB53B8B81B5B980D002786F7 /* New_OmniFocus_ActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB53B8B71B5B980D002786F7 /* New_OmniFocus_ActionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB53B8B21B5B980D002786F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB53B8941B5B980D002786F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB53B89B1B5B980D002786F7;
+			remoteInfo = "New OmniFocus Action";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB53B89C1B5B980D002786F7 /* New OmniFocus Action.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New OmniFocus Action.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB53B8A01B5B980D002786F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB53B8A11B5B980D002786F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB53B8A31B5B980D002786F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB53B8A61B5B980D002786F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB53B8A81B5B980D002786F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB53B8AB1B5B980D002786F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB53B8B11B5B980D002786F7 /* New OmniFocus ActionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New OmniFocus ActionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB53B8B61B5B980D002786F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB53B8B71B5B980D002786F7 /* New_OmniFocus_ActionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_OmniFocus_ActionTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB53B8991B5B980D002786F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB53B8AE1B5B980D002786F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB53B8931B5B980D002786F7 = {
+			isa = PBXGroup;
+			children = (
+				CB53B89E1B5B980D002786F7 /* New OmniFocus Action */,
+				CB53B8B41B5B980D002786F7 /* New OmniFocus ActionTests */,
+				CB53B89D1B5B980D002786F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB53B89D1B5B980D002786F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB53B89C1B5B980D002786F7 /* New OmniFocus Action.app */,
+				CB53B8B11B5B980D002786F7 /* New OmniFocus ActionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB53B89E1B5B980D002786F7 /* New OmniFocus Action */ = {
+			isa = PBXGroup;
+			children = (
+				CB53B8A11B5B980D002786F7 /* AppDelegate.swift */,
+				CB53B8A31B5B980D002786F7 /* ViewController.swift */,
+				CB53B8A51B5B980D002786F7 /* Main.storyboard */,
+				CB53B8A81B5B980D002786F7 /* Images.xcassets */,
+				CB53B8AA1B5B980D002786F7 /* LaunchScreen.xib */,
+				CB53B89F1B5B980D002786F7 /* Supporting Files */,
+			);
+			path = "New OmniFocus Action";
+			sourceTree = "<group>";
+		};
+		CB53B89F1B5B980D002786F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB53B8A01B5B980D002786F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB53B8B41B5B980D002786F7 /* New OmniFocus ActionTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB53B8B71B5B980D002786F7 /* New_OmniFocus_ActionTests.swift */,
+				CB53B8B51B5B980D002786F7 /* Supporting Files */,
+			);
+			path = "New OmniFocus ActionTests";
+			sourceTree = "<group>";
+		};
+		CB53B8B51B5B980D002786F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB53B8B61B5B980D002786F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB53B89B1B5B980D002786F7 /* New OmniFocus Action */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB53B8BB1B5B980D002786F7 /* Build configuration list for PBXNativeTarget "New OmniFocus Action" */;
+			buildPhases = (
+				CB53B8981B5B980D002786F7 /* Sources */,
+				CB53B8991B5B980D002786F7 /* Frameworks */,
+				CB53B89A1B5B980D002786F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "New OmniFocus Action";
+			productName = "New OmniFocus Action";
+			productReference = CB53B89C1B5B980D002786F7 /* New OmniFocus Action.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB53B8B01B5B980D002786F7 /* New OmniFocus ActionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB53B8BE1B5B980D002786F7 /* Build configuration list for PBXNativeTarget "New OmniFocus ActionTests" */;
+			buildPhases = (
+				CB53B8AD1B5B980D002786F7 /* Sources */,
+				CB53B8AE1B5B980D002786F7 /* Frameworks */,
+				CB53B8AF1B5B980D002786F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB53B8B31B5B980D002786F7 /* PBXTargetDependency */,
+			);
+			name = "New OmniFocus ActionTests";
+			productName = "New OmniFocus ActionTests";
+			productReference = CB53B8B11B5B980D002786F7 /* New OmniFocus ActionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB53B8941B5B980D002786F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Maciej Konieczny";
+				TargetAttributes = {
+					CB53B89B1B5B980D002786F7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CB53B8B01B5B980D002786F7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CB53B89B1B5B980D002786F7;
+					};
+				};
+			};
+			buildConfigurationList = CB53B8971B5B980D002786F7 /* Build configuration list for PBXProject "New OmniFocus Action" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB53B8931B5B980D002786F7;
+			productRefGroup = CB53B89D1B5B980D002786F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB53B89B1B5B980D002786F7 /* New OmniFocus Action */,
+				CB53B8B01B5B980D002786F7 /* New OmniFocus ActionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB53B89A1B5B980D002786F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB53B8A71B5B980D002786F7 /* Main.storyboard in Resources */,
+				CB53B8AC1B5B980D002786F7 /* LaunchScreen.xib in Resources */,
+				CB53B8A91B5B980D002786F7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB53B8AF1B5B980D002786F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB53B8981B5B980D002786F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB53B8A41B5B980D002786F7 /* ViewController.swift in Sources */,
+				CB53B8A21B5B980D002786F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB53B8AD1B5B980D002786F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB53B8B81B5B980D002786F7 /* New_OmniFocus_ActionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB53B8B31B5B980D002786F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB53B89B1B5B980D002786F7 /* New OmniFocus Action */;
+			targetProxy = CB53B8B21B5B980D002786F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB53B8A51B5B980D002786F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB53B8A61B5B980D002786F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB53B8AA1B5B980D002786F7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB53B8AB1B5B980D002786F7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB53B8B91B5B980D002786F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB53B8BA1B5B980D002786F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB53B8BC1B5B980D002786F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "New OmniFocus Action/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB53B8BD1B5B980D002786F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "New OmniFocus Action/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB53B8BF1B5B980D002786F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "New OmniFocus ActionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/New OmniFocus Action.app/New OmniFocus Action";
+			};
+			name = Debug;
+		};
+		CB53B8C01B5B980D002786F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "New OmniFocus ActionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/New OmniFocus Action.app/New OmniFocus Action";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB53B8971B5B980D002786F7 /* Build configuration list for PBXProject "New OmniFocus Action" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB53B8B91B5B980D002786F7 /* Debug */,
+				CB53B8BA1B5B980D002786F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB53B8BB1B5B980D002786F7 /* Build configuration list for PBXNativeTarget "New OmniFocus Action" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB53B8BC1B5B980D002786F7 /* Debug */,
+				CB53B8BD1B5B980D002786F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB53B8BE1B5B980D002786F7 /* Build configuration list for PBXNativeTarget "New OmniFocus ActionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB53B8BF1B5B980D002786F7 /* Debug */,
+				CB53B8C01B5B980D002786F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB53B8941B5B980D002786F7 /* Project object */;
+}
